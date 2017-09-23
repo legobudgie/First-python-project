@@ -10,8 +10,8 @@ while (not name.isalpha()):
   
 age = input("How old are you, sucker?: ")
 
-while (not age.isdigit()):
-  if(age >=100):
+while (not age.isdigit() and age < 100):
+  
     print ("Try again but with numbers or your actual age ;)")
 
     age = input("How old are you, sucker?: ")
