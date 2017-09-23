@@ -9,13 +9,18 @@ while (not name.isalpha()):
   name = input("Enter your name punk: ")
   
 age = input("How old are you, sucker?: ")
-if age.isnumeric():
-  print (age)
-else:
+##if age.isnumeric():
+##  print (age)
+##else:
+##   print ("Try again but with numbers ;)")
+##   time.sleep(1)
+##   age = input("How old are you, sucker?: ")
+
+while (not age.isnumeric()):
     print ("Try again but with numbers ;)")
     time.sleep(1)
     age = input("How old are you, sucker?: ")
-    print (age)
+print (age)
 time.sleep(1)
 print ("OK, " + name + ", you are " + age + " years old?")
 time.sleep(1)
