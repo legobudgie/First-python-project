@@ -2,12 +2,7 @@
 #you're cringing, sorry. I was 14.#
 import time
 name = input("Enter your name punk: ")
-##if name.isalpha():
-##  print (name)
-##else:
-##      print ("Try again but with letters ;)")
-##      time.sleep(1)
-##      name = input("Enter your name punk: ")
+
 while (not name.isalpha()):
   print ("Try again but with letters ;)")
   time.sleep(1)
