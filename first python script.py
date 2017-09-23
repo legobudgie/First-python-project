@@ -39,7 +39,6 @@ else:
     time.sleep(1)
     print("Sorry I couldn't loop at the time of making")
 
-#roiug
     
 
 
